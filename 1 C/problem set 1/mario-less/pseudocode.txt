@@ -1,0 +1,13 @@
+
+// let user to input height
+    //if height not in 1~8, let user to input height again.
+
+//define weight, here, weight = height.
+
+//define a counter(line_number) to record No.line.
+//complete each line,
+    // for each line:
+        //line is constructed by weight chatacters
+        // which is (weight-line_number)* " " and line_number * "#"
+        //so fitst print (weight-line_number)* " "
+        //then print line_number * "#"
