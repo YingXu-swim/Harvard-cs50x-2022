@@ -1,0 +1,27 @@
+sort1 uses: bubble sort
+
+How do you know?: when data is sorted, the time would be small.
+
+sort2 uses: merge sort
+
+How do you know?: In each case, the sorting time is about the same, and the sorting time is relatively fast.
+
+sort3 uses: selection sort
+
+How do you know?: In each case, the sorting time is about the same.
+
+
+
+// sort1 | random: 0.101s | 0.314s | 8.949s | reversed: 0.072s | 0.285s | 7.672s | sorted: 0.039s | 0.129s | 1.875s
+// sort2 | random: 0.050s | 0.175s | 1.854s | reversed: 0.018s | 0.096s | 1.254s | sorted: 0.051s | 0.066s | 1.025s
+// sort3 | random: 0.048s | 0.153s | 4.929s | reversed: 0.046s | 0.166s | 4.495s | sorted: 0.046s | 0.183s | 4.050s
+
+
+bubble sort
+// best condition(sorted) is n, and other condition (reversed) is n*n = n^2
+
+selection sort
+// in all case: n*n = n^2
+
+merge sort
+// nlogn
